@@ -2,14 +2,25 @@
 Repositorio donde se encuentran todas las pruebas realizada en cuadernos Jupyter. Los modelos se han organizado se la siguiente forma:
 
 ```.
-└── dataset
-    ├── train
-    │   ├── normal
-    │   └── enfermedad
-    ├── test
-    │   ├── normal
-    │   └── enfermedad
-    └── validation
-        ├── normal
-        └── enfermedad
+└── Repostorio
+    ├── autoencoder
+    └── binario
+        └─── CEL
+            ├── sinProcesar
+            ├── balanceoSklearn
+            └── balanceoImblearn
+        └── FL
+            ├── sinProcesar
+            ├── balanceoSklearn
+            └── balanceoImblearn
+    └── multi-label
+        └─── CEL
+            ├── sinProcesar
+            ├── balanceoSklearn
+            └── balanceoImblearn
+        └── FL
+            ├── sinProcesar
+            ├── balanceoSklearn
+            └── balanceoImblearn
+    └── autoencoders
 ```
