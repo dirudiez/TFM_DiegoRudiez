@@ -5,20 +5,21 @@ Se han realizado pruebas sin procesar los datos y empleando técnicas de balance
 
 ```.
 └── Repostorio
-    ├── autoencoder
+    ├── /autoencoder
     └── /binario
         └── /CEL
-            ├── sinProcesar
-            ├── balanceoSklearn
-            └── balanceoImblearn
+            ├── /sinProcesar
+            ├── /balanceoSklearn
+            └── /balanceoImblearn
         └── /FL
-            ├── sinProcesar
-            ├── balanceoSklearn
-            └── balanceoImblearn
+            ├── /sinProcesar
+            ├── /balanceoSklearn
+            └── /balanceoImblearn
     └── /multi-label
-        └── CEL
-        └── FL
+        └── /CEL
+        └── /FL
     └── /autoencoders
-    └── /autoencoders
-    └── /autoencoders
+    └── ReducirDataset
+    └── AnálisisDataset
+    └── Procesar Imágenes
 ```
